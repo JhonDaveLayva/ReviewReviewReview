@@ -71,7 +71,7 @@
 
 .container  {
 
-    background-image: radial-gradient(#2f2f2f 0.1rem, transparent 1px);
+    background-image: radial-gradient(#2f2f2f 0.2rem, transparent 1px);
     background-size: 32px 32px;
     background-color: var(--dark1);
 
