@@ -19,7 +19,7 @@ main = () => {
         return `<div class="subject-div">
                     <div class="subject-elements">
                         <div class="subject-img">
-                            <img src= ${subjectImage} alt="ecen 102 picture">
+                            <img src= ${subjectImage} alt="${element["course-code"]} picture">
                         </div>
                         <div class="subject-description">
                             <h1 class="subject-name">${element["course-name"]}</h1>
