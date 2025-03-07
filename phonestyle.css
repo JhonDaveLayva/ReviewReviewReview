@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 600px) {
     .container {
         background-color: var(--dark1);
     }
@@ -34,7 +34,7 @@
     }
 
     .web-icon {
-        height: 90%;
+        width: 5rem;
         aspect-ratio: 1;
         border-radius: 50%;
         overflow: hidden;
@@ -84,8 +84,31 @@
         color: var(--light1);
     }
 
+    .nav-indicator {
+        width: 6rem;
+        height: 100%;
+        border-radius: 50%;
+
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: ease-out 250ms;
+    }
+
     .active a .icon {
-        transform: translateY(43%);
+        transform: translateY(5%);
+    }
+
+    .active a .nav-indicator {
+        width: 6rem;
+        height: 100%;
+        background-color: var(--clr3);
+        transform: translateY(50%);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .text {
@@ -103,19 +126,12 @@
         opacity: 1;
         color: var(--clr3);
         transform: translatey(-1.8rem);
-    
     }
 
-    .nav-indicator {
-        position: absolute;
-        top: 50%;
-        left: 2.5%;
-        width: 5.5rem;
-        height: 5.5rem;
-        background-color: var(--clr3);
-        border-radius: 50%;
-        border: 0.4rem solid var(--bgclr);
-        transition: 0.5s;
+
+
+    .title-section {
+        height: 50rem;
     }
 
     .subject-section-blur {
@@ -126,9 +142,11 @@
 
     .subject-container {
         background-color: transparent;
-        width: 100%;
         height: 100%;
         border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 
