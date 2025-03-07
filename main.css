@@ -380,10 +380,12 @@
     cursor: pointer;
 }
 
-
-
-
-
 .dummy {
     height: 100rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        background-color: green;
+    }
 }
