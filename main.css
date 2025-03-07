@@ -51,7 +51,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    border: 1px solid red;
+    border: 0px solid red;
 
 }
 
@@ -168,16 +168,16 @@
 }
 
 .title-div h1{
-    height: 9rem;
+    height: 7rem;
     color: var(--light1);
-    font-size: 10rem;
+    font-size: 7rem;
 
     padding: 0;
 }
 
 .subject-section {
-    height: 100vw;
-    width: 100%;
+    height: 70rem;
+    width: 100vw;
 
     display: flex;
     justify-content: center;
