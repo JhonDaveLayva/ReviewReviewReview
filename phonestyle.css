@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     .container {
         background-color: var(--dark1);
     }
@@ -128,8 +128,6 @@
         transform: translatey(-1.8rem);
     }
 
-
-
     .title-section {
         height: 50rem;
     }
@@ -149,7 +147,118 @@
         align-items: center;
     }
 
+    .subject-div {
+        width: 100%;
+    }
+
+    .subject-img {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1vw;
+        flex-grow: 1;
+        box-shadow: none;
+    }
+
+    .subject-img img{
+        box-shadow: 0 0 1rem 1rem rgba(0,0,0,0.2);
+        border-radius: 1rem;
+    }
+
+    .subject-description {
+        width: 60%;
+    }
+
+    .subject-name {
+        font-size: 3rem;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .navigation-1 {
+        height: 15vw;
+    }
+
+    .icon {
+        font-size: 4vw;
+        line-height: 7vw;
+    }
+
+    .text {
+        font-size: 3vw;
+    }
+
+    .nav-indicator {
+        width: 13vw;
+        aspect-ratio: 1;
+    }
+
+    .active a .text {
+        font-size: 3vw;
+        transform: translateY(-60%);
+    }
+
+
+    .active a .nav-indicator {
+        width: 13vw;
+        aspect-ratio: 1;
+    }
 
 
 
+    
+
+    .subject-div{
+        height: 35vw;
+    }
+    .subject-name {
+        font-size: 5vw;
+        line-height: 4vw;
+    }
+
+    .other-details p {
+        font-size: 3vw;
+    }
+
+    .start-btn {
+        font-size: 2.8vw;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+    
+    .title-div h1 {
+        font-size: 20vw;
+        height: 18vw;
+    }
+
+    .start-btn {
+        font-size: 2.5vw;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    body {
+        background-image: url("https://th.bing.com/th/id/OIP.Rale_mUfzrvH_m7MSpZKygHaFk?rs=1&pid=ImgDetMain");
+        background-size: cover; /* Ensures the image covers the entire screen */
+        background-position: center; /* Centers the image */
+    }
+    .container {
+        display: none;
+    }
+}
+@media only screen and (min-width: 4000px) {
+    body {
+        background-image: url("https://th.bing.com/th/id/OIP.Rale_mUfzrvH_m7MSpZKygHaFk?rs=1&pid=ImgDetMain");
+        background-size: cover; /* Ensures the image covers the entire screen */
+        background-repeat: no-repeat;
+        background-position:0rem 1rem; /* Centers the image */
+    }
+    .container {
+        display: none;
+    }
 }
