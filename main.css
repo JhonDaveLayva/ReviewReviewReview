@@ -95,6 +95,7 @@
     top: var(--spacing5);
     width: 70%;
     height: 5rem;
+    max-width: 150rem;
     border-radius: 5rem;
 
     background: var(--dark4);
