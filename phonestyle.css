@@ -251,7 +251,7 @@
         display: none;
     }
 }
-@media only screen and (min-width: 4000px) {
+@media only screen and (min-width: 5000px) {
     body {
         background-image: url("https://th.bing.com/th/id/OIP.Rale_mUfzrvH_m7MSpZKygHaFk?rs=1&pid=ImgDetMain");
         background-size:100vh; /* Ensures the image covers the entire screen */
