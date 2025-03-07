@@ -389,3 +389,15 @@
         background-color: green;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        background-color: yellow;
+    }
+}
