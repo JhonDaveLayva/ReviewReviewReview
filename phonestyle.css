@@ -1,0 +1,124 @@
+
+@media only screen and (max-width: 850px) {
+    .container {
+        background-color: var(--dark1);
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .navigation-1 {
+        position: sticky;
+        top: 3rem;
+        width: 40rem;
+        height: 7rem;
+        border-radius: 5rem;
+        padding-left: 1rem;
+        z-index: 1;
+
+        background-color: var(--dark4);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-container {
+        width: 95%;
+        height: 75%;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .web-icon {
+        height: 90%;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .icon-img {
+        width: 100%;
+        aspect-ratio: 1;
+    }
+
+
+    .nav-btn-container {
+        width: 83%;
+        height: 100%;
+
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav-btn1 {
+        position: relative;
+
+        width: 90%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .nav-btn1 a {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .icon {
+        position: relative;
+        display: block;
+        line-height: 6rem;
+        font-size: 2rem;
+        text-align: center;
+        transition: 0.5s;
+        color: var(--light1);
+    }
+
+    .active a .icon {
+        transform: translateY(43%);
+    }
+
+    .text {
+        position: absolute;
+        color: var(--light1);
+        font-weight: 700;
+        font-size: 1.5rem;
+        letter-spacing: 0.05em;
+        transition: 0.5s;
+        opacity: 0;
+        transform: translatey(-2rem);
+    }
+
+    .active a .text {
+        opacity: 1;
+        color: var(--clr3);
+        transform: translatey(-1.8rem);
+    
+    }
+
+    .nav-indicator {
+        position: absolute;
+        top: 50%;
+        left: 3.5%;
+        width: 5.5rem;
+        height: 5.5rem;
+        background-color: var(--clr3);
+        border-radius: 50%;
+        border: 0.4rem solid var(--bgclr);
+        transition: 0.5s;
+    }
+
+
+
+
+}
