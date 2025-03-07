@@ -229,11 +229,17 @@
 }
 
 @media only screen and (max-width: 420px) {
-
+    .web-icon {
+        width: 12vw;
+    }
     
     .title-div h1 {
         font-size: 20vw;
         height: 18vw;
+    }
+
+    .subject-description {
+        margin-left: 3vw;
     }
 
     .start-btn {
@@ -251,6 +257,7 @@
         display: none;
     }
 }
+
 @media only screen and (min-width: 5000px) {
     body {
         background-image: url("https://th.bing.com/th/id/OIP.Rale_mUfzrvH_m7MSpZKygHaFk?rs=1&pid=ImgDetMain");
