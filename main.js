@@ -42,3 +42,12 @@ main = () => {
         })
     })
 }
+const list = document.querySelectorAll('.nav-btn1');
+function activeLink(){
+    list.forEach((item) => 
+    item.classList.remove('active'));
+     this.classList.add('active');
+}
+
+list.forEach((item) => 
+item.addEventListener('click', activeLink));
