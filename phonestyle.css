@@ -254,9 +254,9 @@
 @media only screen and (min-width: 4000px) {
     body {
         background-image: url("https://th.bing.com/th/id/OIP.Rale_mUfzrvH_m7MSpZKygHaFk?rs=1&pid=ImgDetMain");
-        background-size: cover; /* Ensures the image covers the entire screen */
+        background-size:100vh; /* Ensures the image covers the entire screen */
         background-repeat: no-repeat;
-        background-position:0rem 1rem; /* Centers the image */
+        background-position:25vw 15vh; /* Centers the image */
     }
     .container {
         display: none;
