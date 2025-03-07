@@ -81,6 +81,10 @@
     flex-direction: column;
 }
 
+.navigation-1 {
+    display: none;
+}
+
 .navigation {
     position: sticky;
     top: var(--spacing5);
@@ -98,7 +102,17 @@
 
 }
 
+.nav-elements {
+    width: 95%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .web-name {
+    width: 40%;
     position: absolute;
     left: var(--spacing7);
     font-size: var(--subheading);
@@ -110,7 +124,7 @@
 .nav-btn {
     position: absolute;
     right: var(--spacing7);
-    width: 38rem;
+    width: 50%;
     font-size: 1.5rem;
 
     display: flex;
@@ -309,7 +323,7 @@
 }
 
 .subject-img {
-    width: 45%;
+    width: 50%;
     height: auto;
     aspect-ratio: 1;
 
@@ -329,7 +343,7 @@
 }
 
 .subject-description {
-    width: 50%;
+    width: 45%;
     padding: 1rem 0;
 
     display: flex;
@@ -384,20 +398,4 @@
     height: 100rem;
 }
 
-@media only screen and (max-width: 500px) {
-    .container {
-        background-color: green;
-    }
-}
 
-@media only screen and (max-width: 600px) {
-    .container {
-        background-color: red;
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    .container {
-        background-color: yellow;
-    }
-}
