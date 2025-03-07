@@ -1,0 +1,71 @@
+[
+    {
+        "course-name": "Basic Electronics 2",
+        "course-code": "ECEN 102",
+        "course-index": 0,
+        "image-path": "images/ecen102.jpg",
+
+        "lessons": [
+            {
+                "lesson-index": 0,
+                "lesson-name": "Acoustic Fundamentals"
+            }
+        ]
+    },
+
+    {
+        "course-name": "Physics for Engineers",
+        "course-code": "PHYS 013",
+        "course-index": 1,
+        "image-path": "",
+
+        "lessons": [
+            {
+                "lesson-index": 0,
+                "lesson-name": "Acoustic Fundamentals"
+            }
+        ]
+    },
+
+    {
+        "course-name": "Physics 2",
+        "course-code": "PHYS 107",
+        "course-index": 2,
+        "image-path": "",
+
+        "lessons": [
+            {
+                "lesson-index": 0,
+                "lesson-name": "Acoustic Fundamentals"
+            }
+        ]
+    },
+
+    {
+        "course-name": "Calculus 2",
+        "course-code": "MATH 103",
+        "course-index": 3,
+        "image-path": "",
+
+        "lessons": [
+            {
+                "lesson-index": 0,
+                "lesson-name": "Acoustic Fundamentals"
+            }
+        ]
+    },
+
+    {
+        "course-name": "Material Science & Engineering",
+        "course-code": "ENSC 027",
+        "course-index": 4,
+        "image-path": "",
+
+        "lessons": [
+            {
+                "lesson-index": 0,
+                "lesson-name": "Acoustic Fundamentals"
+            }
+        ]
+    }
+]
