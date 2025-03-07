@@ -43,6 +43,9 @@
 
     --bgclr: var(--dark1);
     --navclr: var(--dark3);
+
+    overscroll-behavior-x: none;
+
 }
 
 *{
