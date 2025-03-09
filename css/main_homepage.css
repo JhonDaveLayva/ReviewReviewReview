@@ -1,0 +1,244 @@
+
+.title-section {
+    width: 100%;
+    height: 60rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title-div {
+    height: 30rem;
+}
+
+.title-div h1{
+    height: 10rem;
+    color: var(--light1);
+    font-size: 11rem;
+
+    padding: 0;
+}
+
+.subject-section {
+    height: 70rem;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subject-section-blur {
+    height: 100%;
+    width: 100rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(50, 50, 50, 0.2);
+    border-radius: 5rem;
+    box-shadow: 0 0 10rem 2rem rgba(0, 0, 0, 1);
+    backdrop-filter: blur(0.1rem);
+    -webkit-backdrop-filter: blur(0.1rem);
+    border: 0px solid rgba(50, 50, 50, 0.3);
+}
+
+.subject-container {
+    height: 90%;
+    width: 93%;
+
+    background: var(--dark1);
+    border-radius: 2.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subject-container-title {
+    width: 90%;
+    height: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.subject-title-text {
+    font-size: var(--h2);
+    color: var(--light1);
+}
+
+.subject-title-hr {
+    width: 30%;
+    height: 0.5rem;
+    position: relative;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--clr1);
+    transition: ease-out 500ms;
+
+}
+
+.subject-title-hr::after {
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: var(--clr1);
+    border-radius: 0 50% 50% 0 ;
+    position: absolute;
+    left: 100%;
+    
+}
+
+.subject-title-hr::before {
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: var(--clr1);
+    position: absolute;
+    left: -0.5rem;
+    border-radius: 50% 0 0 50% ;
+}
+
+.subject-title-text:hover~.subject-title-hr {
+    width: 50%;
+}
+
+.subject-container-content {
+    width: 91%; /*83.5rem*/
+    height: 80%; /*50rem*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.subject-container-scrollable {
+    width: 100%;
+    height: 90%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow-y: scroll;
+
+    padding-right: 2rem;
+}
+.subject-container-scrollable::-webkit-scrollbar {
+    background-color: var(--dark1);
+    border: 0.5px solid var(--clr1);
+    border-radius: 1rem;
+    width: 0.9rem;    
+}
+.subject-container-scrollable::-webkit-scrollbar-thumb {
+    background-color: var(--clr1);
+    border-radius: 1rem;
+}
+.subject-div {
+    width: 40rem;
+    height: 20rem;
+    margin: 1rem 0;
+
+    background-color: var(--grey1);
+    border-radius: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subject-elements {
+    width: 93%;
+    height: 88%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.subject-img {
+    width: 50%;
+    height: auto;
+    aspect-ratio: 1;
+
+    border-radius: 1rem;
+    box-shadow: 0 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+    transition: ease-out 250ms;
+}
+
+.subject-img:hover {
+    transform: scale(1.02);
+}
+
+.subject-img img {
+    width: 100%;
+}
+
+.subject-description {
+    width: 45%;
+    padding: 1rem 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.subject-name {
+    max-height: 7.5rem;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    color: var(--light1);
+}
+
+.other-details {
+    width: 90%;
+    margin-left: 1rem;
+}
+
+.other-details p{
+    color: var(--light3);
+    font-size: 1.3rem;
+}
+
+.start-btn {
+    width: 80%;
+    height: 20%;
+
+    text-decoration: none;
+    background-color: var(--clr2);
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    color: var(--light1);
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: flex-end;
+    align-self: center;
+
+    transition: ease-out 250ms;
+}
+
+.start-btn:hover {
+    background-color: var(--light1);
+    color: var(--clr2);
+    cursor: pointer;
+}

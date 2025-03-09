@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root{
+    font-size: 62.5%;
+
+    --dark1: #0A0A0A;
+    --dark2: #141414;
+    --dark3: #1e1e1e;
+    --dark4: #282828;
+
+    --grey1: #323232;
+    --grey2: #444444;
+    --grey3: #565656;
+    --grey4: #646464;
+
+    --light1: #F5F5F5;
+    --light2: #E1E1E1;
+    --light3: #CDCDCD;
+    --light4: #B4B4B4;
+
+    --clr1: #F9C607;
+    --clr2: #6601BE;
+    --clr3: #CF0C07;
+    --clr4: #0196E0;
+
+    --spacing1: 0.25rem;
+    --spacing2: 0.5rem;
+    --spacing3: 0.75rem;
+    --spacing4: 1rem;
+    --spacing5: 1.25rem;
+    --spacing6: 1.75rem;
+    --spacing7: 2.5rem;
+    --spacing8: 3.75rem;
+    --spacing9: 6.25rem;
+    --spacing10: 10rem;
+    --spacing11: 15rem;
+
+    --h1: 4rem;
+    --h2: 3.5rem;
+    --h3: 2.5rem;
+    --subheading: 2rem;
+    --p: 1.75rem;
+
+    --bgclr: var(--dark1);
+    --navclr: var(--dark3);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    transition: ease-out 250ms;
+    border: 0px solid red;
+
+}
+
+::-webkit-scrollbar{
+    
+    background-color: var(--dark1);
+    width: 0.5rem;
+    height: 0.5rem;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--clr3);
+    border-radius: 1rem;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container  {
+
+    background-image: radial-gradient(#2f2f2f 0.2rem, transparent 1px);
+    background-size: 32px 32px;
+    background-color: var(--dark1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dummy {
+    height: 100rem;
+}
+
+@media only screen and (max-width: 200px) {
+    body {
+        background-image: url("https://th.bing.com/th/id/OIP.Rale_mUfzrvH_m7MSpZKygHaFk?rs=1&pid=ImgDetMain");
+        background-size: cover; /* Ensures the image covers the entire screen */
+        background-position: center; /* Centers the image */
+    }
+    .container {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 5000px) {
+    body {
+        background-image: url("https://th.bing.com/th/id/OIP.Rale_mUfzrvH_m7MSpZKygHaFk?rs=1&pid=ImgDetMain");
+        background-size:100vh; /* Ensures the image covers the entire screen */
+        background-repeat: repeat;
+        background-position:25vw 15vh; /* Centers the image */
+    }
+    .container {
+        display: none;
+    }
+}
